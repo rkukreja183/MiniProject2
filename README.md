@@ -40,16 +40,16 @@ MiniProject2/
 
 ### `task1/`
 - Main folder containing scripts, notebooks, and helper modules for Task 1.
-  - `analyze_results.ipynb`: Notebook likely for exploratory data analysis or summarizing results.
-  - `base_eval.ipynb`: Jupyter notebook for running or visualizing baseline evaluation experiments.
-  - `evaluate_finetuned.py`: Script to evaluate a fine-tuned model, possibly automated.
-  - `evaluate_harmbench.ipynb`: Notebook focused on evaluating models/datasets using HarmBench metrics.
-  - `finetuning_qwen3-4b.ipynb`: Notebook for the fine-tuning process of the Qwen3-4b model.
+  - `analyze_results.ipynb`: Analyze the misalignment rates
+  - `base_eval.ipynb`: Evaluate misalignment rate in Qwen3-4B
+  - `evaluate_finetuned.py`: Evaluate finetuned models on freeform questions
+  - `evaluate_harmbench.ipynb`: Evaluating base and finetuned models on HarmBench
+  - `finetuning_qwen3-4b.ipynb`: Fine-tuning process of the Qwen3-4b model.
   - `plotting.ipynb`: For generating visualizations/plots from results.
-  - `updated_judge_scores.ipynb`: Contains updated or post-processed judge evaluation scores.
+  - `updated_judge_scores.ipynb`: Exploring judgezoo for alignment scoring and testing different coherence prompts.
   - `data_helpers/`: Module(s) or scripts for data handling, loading, or preprocessing.
-  - `downloaded_outputs/`: Directory for downloaded intermediate or output files (could contain model outputs, result files, etc.).
-  - `harmbench/`: Likely contains code or resources related to HarmBench evaluations.
-  - `modal/`: Could include modal scripts, docker setups, or job scripts (see content for detail).
+  - `downloaded_outputs/`: Directory for downloaded results of all finetuned and base models on freeform response
+  - `harmbench/`: Results of harmbench evaluation
+  - `modal/`: scripts to run finetune evaluation on modal
 
 ---
