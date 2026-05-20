@@ -1,0 +1,10 @@
+task1/data
+task1/22f2001412.ipynb
+task1/model-organisms-for-EM
+
+task1/extras/
+task1/data/
+task1/finetuned_models_new
+task1/downloaded_outputs/outputs_with_judgezoo_scores
+task1/downloaded_outputs/new_scores
+.DS_Store
